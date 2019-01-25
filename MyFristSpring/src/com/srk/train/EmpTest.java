@@ -12,5 +12,6 @@ public static void main(String[] args) {
 
     Employee emp = (Employee) context.getBean("employeebean2");  
     emp.show();  
+    System.out.println("Program is done");
 }  
 }  
